@@ -180,15 +180,14 @@ The file `examples/yaknewtab-ssh.desktop` contains an example that launch a ssh 
 
 Contributers need to sign the [Contributor License Agreement](http://contributoragreements.org/ca-cla-chooser/?beneficiary-name=Peter+J.+Mello&project-name=yaknewtab&project-website=https%3A%2F%2Fgithub.com%2FRogueScholar%2Fyaknewtab&project-email=admin%40petermello.net&process-url=https%3A%2F%2Fgithub.com%2FRogueScholar%2Fyaknewtab&project-jurisdiction=United+States+of+America&agreement-exclusivity=exclusive&fsfe-compliance=&fsfe-fla=&outbound-option=fsfe&outboundlist=GPL-3.0&outboundlist-custom=&medialist=CC-BY-NC-SA-4.0&patent-option=Traditional&your-date=&your-name=&your-title=&your-address=&your-patents=&pos=apply&action=) before their pull requests will be reviewed.
 
-![GPL-3.0 license logo](https://www.gnu.org/graphics/gplv3-with-text-136x68.png)
+[![GPL-3.0 license logo](https://www.gnu.org/graphics/gplv3-with-text-136x68.png)](https://www.gnu.org/licenses/gpl.html) [![GFDL-1.3 license logo](https://www.gnu.org/graphics/gfdl-logo-small.png)](https://www.gnu.org/licenses/fdl.html)
 
 Copyleft: All rights reversed. 2019 [Peter J. Mello](https://github.com/RogueScholar)
 
-![Creative Commons ShareAlike Symbol-20px](https://user-images.githubusercontent.com/15098724/56478451-5958a680-6464-11e9-944a-f4c744e70f26.png) SPDX-License-Identifier: GPL-3.0-or-later
-
+[![Creative Commons ShareAlike Symbol-20px](https://user-images.githubusercontent.com/15098724/56478451-5958a680-6464-11e9-944a-f4c744e70f26.png)](https://spdx.org/licenses/GPL-3.0-or-later.html) [SPDX-License-Identifier: GPL-3.0-or-later](https://spdx.org/licenses/GPL-3.0-or-later.html)
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FRogueScholar%2Fyaknewtab.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FRogueScholar%2Fyaknewtab?ref=badge_large)
 
 ## Contact
 
-![Keybase PGP](https://img.shields.io/keybase/pgp/rscholar.svg?label=Keybase.io&logo=Keybase&logoColor=white&style=for-the-badge) ![Twitter Follow](https://img.shields.io/twitter/follow/SingularErgoSum.svg?color=orange&label=Follow%20%40SingularErgoSum&logo=Twitter&style=for-the-badge)
+[![Keybase PGP](https://img.shields.io/keybase/pgp/rscholar.svg?label=Keybase.io&logo=Keybase&logoColor=white&style=for-the-badge)](https://keybase.io/rscholar) [![Twitter Follow](https://img.shields.io/twitter/follow/SingularErgoSum.svg?color=orange&label=Follow%20%40SingularErgoSum&logo=Twitter&style=for-the-badge)](https://twitter.com/SingularErgoSum)
