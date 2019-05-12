@@ -1,4 +1,5 @@
 # yaknewtab [![GitHub license](https://img.shields.io/github/license/RogueScholar/yaknewtab.svg?logo=GNU&style=for-the-badge)](https://github.com/RogueScholar/yaknewtab/blob/master/LICENSE)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FRogueScholar%2Fyaknewtab.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FRogueScholar%2Fyaknewtab?ref=badge_shield)
 
 #### A shell script for opening new Yakuake tabs/sessions
 
@@ -184,6 +185,9 @@ Contributers need to sign the [Contributor License Agreement](http://contributor
 Copyleft: All rights reversed. 2019 [Peter J. Mello](https://github.com/RogueScholar)
 
 ![Creative Commons ShareAlike Symbol-20px](https://user-images.githubusercontent.com/15098724/56478451-5958a680-6464-11e9-944a-f4c744e70f26.png) SPDX-License-Identifier: GPL-3.0-or-later
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FRogueScholar%2Fyaknewtab.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FRogueScholar%2Fyaknewtab?ref=badge_large)
 
 ## Contact
 
