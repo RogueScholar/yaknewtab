@@ -1,28 +1,28 @@
-yakuake-session - A script to create new yakuake sessions from command-line.<br />
-Copyright 2010-2018 Jesús Torres \<jmtorres@ull.es\>
+yakuake-session - A script to create new yakuake sessions from
+command-line.<br /> Copyright 2010-2018 Jesús Torres \<jmtorres@ull.es\>
 
 ## What is yakuake-session?
 
 yakuake-session is a Bash script that allows to create new sessions in Yakuake
 terminal emulator from command line. I made it mainly to get a better
 integration of Yakuake in KDE desktop environment. For example, thanks to it
-Yakuake can replace Konsole in "Open terminal here" action in Dolphin or we
-can setup a menu similar to Konsole Profiles widget but using Yakuake instead
-of Konsole.
+Yakuake can replace Konsole in "Open terminal here" action in Dolphin or we can
+setup a menu similar to Konsole Profiles widget but using Yakuake instead of
+Konsole.
 
 ## Bugs & known issues
 
- * Bug [#1177823](http://bugs.launchpad.net/ubuntu/+source/qt4-x11/+bug/1177823)
-breaks the command `qdbus` in Kubuntu 13.04/13.10. It can be fixed installing
-`qt4-default` package.
+- Bug [#1177823](http://bugs.launchpad.net/ubuntu/+source/qt4-x11/+bug/1177823)
+  breaks the command `qdbus` in Kubuntu 13.04/13.10. It can be fixed installing
+  `qt4-default` package.
 
- * Requires wmctrl to change focus if yakuake is already open. Get it from the
-repo e.g. `apt install wmctrl`
+- Requires wmctrl to change focus if yakuake is already open. Get it from the
+  repo e.g. `apt install wmctrl`
 
- * Fish is not a POSIX compliant shell, so yakuake_session detects if it is the
-user default shell and applies some fixes. If the autodetection doesn't work
-properly, open the script and set the variable FISH_SHELL in the first lines to
-1 to apply the fixes unconditionally.
+- Fish is not a POSIX compliant shell, so yakuake_session detects if it is the
+  user default shell and applies some fixes. If the autodetection doesn't work
+  properly, open the script and set the variable FISH_SHELL in the first lines
+  to 1 to apply the fixes unconditionally.
 
 ## Installation
 
@@ -71,9 +71,9 @@ user's home directory then we would use the option `-h`.
 $ yakuake-session -h -e ls
 ```
 
-If the command requires some arguments, they are taken from non-option
-arguments passed to yakuake-session. That means that if some arguments for the
-command begin with `-`, they must passed to yakuake-session after `--`.
+If the command requires some arguments, they are taken from non-option arguments
+passed to yakuake-session. That means that if some arguments for the command
+begin with `-`, they must passed to yakuake-session after `--`.
 
 ```
 $ yakuake-session -h -e ssh -- -X user@example.com
@@ -156,16 +156,14 @@ cp ServiceMenus/yakuakehere.desktop /usr/share/kservices5/ServiceMenus/
 ## Quick Access Menu
 
 Konsole Profiles is a Plasma widget that allows to open a new terminal window,
-configured according to a select profile, and automatically execute a command
-in it. We can get something similar but for Yakuake using the QuickAccess
-widget. We only have to make a directory and setup a QuickAccess widget
-instance to use it as origin (I also like to disable the browsing). Then we
-add some "Link to Application" to that directory, such that each one use
-yakuake-session to create a new Yakuake session and to execute the command
-that we want.
+configured according to a select profile, and automatically execute a command in
+it. We can get something similar but for Yakuake using the QuickAccess widget.
+We only have to make a directory and setup a QuickAccess widget instance to use
+it as origin (I also like to disable the browsing). Then we add some "Link to
+Application" to that directory, such that each one use yakuake-session to create
+a new Yakuake session and to execute the command that we want.
 
 The file `examples/username@example.com.desktop` contains an example that launch
 a ssh client in a new Yakuake session.
-
 
 -- Jesús Torres \<jmtorres@ull.es\>
