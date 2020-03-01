@@ -1,0 +1,68 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"activityBar.background": "#557c9b",
+			"activityBar.foreground": "#e7e7e7",
+			"activityBar.inactiveForeground": "#e7e7e799",
+			"activityBarBadge.background": "#673852",
+			"activityBarBadge.foreground": "#e7e7e7",
+			"statusBar.background": "#43627a",
+			"statusBarItem.hoverBackground": "#557c9b",
+			"statusBar.foreground": "#e7e7e7"
+		},
+		"cSpell.words": [
+			"compat",
+			"debhelper",
+			"yaknewtab",
+			"Kuake",
+			"Jesús",
+		],
+		"peacock.elementAdjustments": {
+			"activityBar": "none",
+			"statusBar": "darken",
+			"titleBar": "none"
+		  },
+		"peacock.affectActivityBar": true,
+		"peacock.affectStatusBar": true,
+		"peacock.affectTitleBar": false,
+		"peacock.favoriteColors": [
+			{
+				"name": "Auth0 Orange",
+				"value": "#eb5424"
+			},
+			{
+				"name": "C# Purple",
+				"value": "#68217A"
+			},
+			{
+				"name": "Gatsby Purple",
+				"value": "#639"
+			},
+			{
+				"name": "Java Blue-Gray",
+				"value": "#557c9b"
+			},
+			{
+				"name": "Mandalorian Blue",
+				"value": "#1857a4"
+			},
+			{
+				"name": "Node Green",
+				"value": "#215732"
+			},
+			{
+				"name": "Something Different",
+				"value": "#832561"
+			},
+			{
+				"name": "Vue Green",
+				"value": "#42b883"
+			}
+		],
+	}
+}

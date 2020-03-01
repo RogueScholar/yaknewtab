@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+export DH_VERBOSE = 1
+
+
+%:
+	dh $@
+
+
+override_dh_auto_build:
+		docbook-to-man debian/yaknewtab.sgml > debian/yaknewtab.1
+		dh_auto_build

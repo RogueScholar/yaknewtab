@@ -1,0 +1,21 @@
+Source: yaknewtab
+Section: kde
+Priority: optional
+Maintainer: Peter J. Mello <admin@petermello.net>
+Build-Depends: debhelper-compat (= 11), docbook-to-man (>= 1:2.0.0-41)
+Standards-Version: 4.1.3
+Homepage: https://github.com/RogueScholar/yaknewtab
+Vcs-Browser: https://github.com/RogueScholar/yaknewtab
+Vcs-Git: https://github.com/RogueScholar/yaknewtab.git
+
+Package: yaknewtab
+Architecture: all
+Depends: ${misc:Depends}
+Description: Shell script to open new tabs in Yakuake
+ yaknewtab is a (mostly) POSIX shell script that greatly simplifies the
+ creation of new tabs/sessions in Yakuake.
+ .
+ It uses simple logic to determine the D-Bus command line tool needed to
+ communicate with the already-running Yakuake process, adding the specifics
+ (supplied as standard POSIX flags and arguments) in the necessary syntax to
+ generate the desired result.

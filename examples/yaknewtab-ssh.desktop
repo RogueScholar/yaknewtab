@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=yakuake-session -h -e ssh -- username@example.com
+Exec=yaknewtab -h -e ssh -- username@example.com
 GenericName=SSH to username@example.com
 Icon=utilities-terminal
 MimeType=

@@ -1,0 +1,5 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+version=4
+opts="pgpsigurlmangle=s%$%.sig%"
+
+opts="uversionmangle=s/(\d)[_\.\-\+]?((RC|rc|pre|dev|beta|alpha|b|a)\d*)$/$1~$2/,dversionmangle=s/\+(debian|ubuntu|dfsg|ppa|deb|gh)\d*$// filenamemangle=s/.+\/v?(\d\S+)\.tar\.gz/<yaknewtab>-$1\.tar\.gz/" https://github.com/RogueScholar/yaknewtab/tags (?:.*?/)?v?(\d[\d.]*)\.tar\.gz debian uupdate

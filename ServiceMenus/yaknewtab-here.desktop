@@ -7,7 +7,7 @@ X-KDE-AuthorizeAction=shell_access
 
 [Desktop Action openYakuakeHere]
 TryExec=yakuake
-Exec=yakuake-session --workdir %f
+Exec=yaknewtab --workdir %f
 Icon=yakuake
 X-Ubuntu-Gettext-Domain=desktop_kdebase
 

@@ -1,0 +1,5 @@
+<SpdxDocument rdf:about="...">
+   <specVersion>SPDX­2.1</specVersion>
+   <dataLicense rdf:resource="http://spdx.org/licenses/CC0­1.0" />
+   <name>yaknewtab-v0.1</name>
+</SpdxDocument>
